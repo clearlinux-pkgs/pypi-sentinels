@@ -14,11 +14,11 @@ Requires: pypi-sentinels-license = %{version}-%{release}
 Requires: pypi-sentinels-python = %{version}-%{release}
 Requires: pypi-sentinels-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 Overview
